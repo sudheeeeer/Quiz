@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Quiz</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet"  href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 shadow-none p-3 mb-5 bg-light rounded">
+                    <h1>QUIZ</h1>
+                    <div id="quizdiv">
+                        <h2 id="question">Quiz question</h2>
+                        <li>
+                            <input type="radio" name="answer" id="a" class="answer">
+                            <label for="a" id="a_value">option a</label><br>
+                        </li>
+                        <li>
+                            <input type="radio" name="answer" id="b" class="answer">
+                            <label for="b" id="b_value">option b</label><br>
+                        </li>
+                        <li>
+                            <input type="radio" name="answer" id="c" class="answer">
+                            <label for="c" id="c_value">option c</label><br>
+                        </li>
+                        <li>
+                            <input type="radio" name="answer" id="d" class="answer">
+                            <label for="d" id="d_value">option d</label>
+                        </li>
+                        <button class="btn btn-primary" id="submit">SUBMIT</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
+<script src="./index.js"></script>

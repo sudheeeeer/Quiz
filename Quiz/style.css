@@ -1,0 +1,15 @@
+body {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+h1 {
+    background-color: blue;
+    text-align: center;
+}
+.col-md-6 {
+    margin-top: 100px;
+    background-color: azure;
+    padding:10px;
+}
+input , label {
+    margin-top: 2px;
+}
